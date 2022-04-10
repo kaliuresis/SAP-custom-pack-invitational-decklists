@@ -11,10 +11,10 @@ div#kopf {
 	color: #ff6a00;
 	text-align: center;
 	text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 	/* background-image: url(../img/FieldBattle.png); */
 	background-repeat: repeat;
 	border-top: 1px solid #000e1d;
