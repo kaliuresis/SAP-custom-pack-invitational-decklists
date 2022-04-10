@@ -105,8 +105,11 @@ h2 {
     margin-bottom:0;
 }
 
-.deck_list > a {
+a {
     color: #ff6a00;
+}
+
+.deck_list > a {
     font-size: 20px;
 }
 
