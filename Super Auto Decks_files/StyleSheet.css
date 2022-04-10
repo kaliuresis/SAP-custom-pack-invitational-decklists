@@ -109,7 +109,7 @@ a {
     color: #ff6a00;
 }
 
-.deck_list > a {
+td > a {
     font-size: 20px;
 }
 
@@ -151,4 +151,15 @@ button#button-url {
 	margin: 10px;
 	width: 80%;
 	/*background-color: #000e1d;*/
+}
+
+table {
+	display: table;
+}
+table tr {
+	display: table-cell;
+    padding: 10px;
+}
+table tr td {
+	display: block;
 }
