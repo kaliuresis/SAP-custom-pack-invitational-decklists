@@ -1,0 +1,151 @@
+body {
+  background-color: #00273a;
+  font-family: verdana;
+  color: #ffffff;
+  margin: 0px;
+  background-image: url(../img/bg.png);
+}
+
+div#kopf {
+	background: #34647c; width: 100%; /*height: 200px;*/
+	color: #ff6a00;
+	text-align: center;
+	text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+	/* background-image: url(../img/FieldBattle.png); */
+	background-repeat: repeat;
+	border-top: 1px solid #000e1d;
+	border-bottom: 1px solid #000e1d;
+}
+
+div#intro {
+	color: #ffffff;
+	text-align: left;
+	font-size:12px;
+	padding: 10px;
+	border-bottom: 3px solid #ffffff;
+	margin-bottom: 10px;
+}
+
+div#footer {
+	background: #34647c; width: 100%; /*height: 200px;*/
+	color: #a1a1a1;
+	text-align: center;
+	font-size:14px;
+	border-top: 1px solid #000e1d;
+	border-bottom: 1px solid #000e1d;
+}
+
+div#tier_wrapper {
+	border-bottom: 3px solid #ffffff;
+	padding: 10px;
+}
+
+div#navi {
+	float: left; background: #ff9999; width: 150px; height: 100%; margin-right: 10px;
+}
+
+.wraps {
+	overflow: auto;
+	/*border: 1px solid #000000;
+	margin: 5px;*/
+}
+
+.pets {
+	float:left;
+	width: 80px; height:80px;
+    background-size: 70px;
+	/*min-width: 80px; max-width: 120px;
+	min-height: 80px; max-height: 120px;*/
+	text: bold;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 10%;
+	padding: 5px;
+    border: 3px solid;
+	border-color: #4d4d4d;
+    /* cursor: pointer; */
+	background-color: #000e1d;
+	text-shadow: 2px 2px #000000;
+    display: none;
+    background-position: center bottom;
+}
+
+.food {
+	float:left;
+	width: 80px; height:80px;
+    background-size: 70px;
+	/*min-width: 80px; max-width: 120px;
+	min-height: 80px; max-height: 120px;*/
+	text: bold;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 10%;
+	padding: 5px;
+    border: 3px solid;
+	border-color: #4d4d4d;
+    /* cursor: pointer; */
+	background-color: #000e1d;
+	text-shadow: 2px 2px #000000;
+    display: none;
+    background-position: center bottom;
+}
+
+h2 {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.deck_list > a {
+    color: #ff6a00;
+    font-size: 20px;
+}
+
+/* div.pets:hover{ */
+/* 	/\*border-color: #000000;*\/ */
+/* 	background-color: #000000; */
+/* } */
+
+/* div.food:hover{ */
+/* 	/\*border-color: #000000;*\/ */
+/* 	background-color: #000000; */
+/* } */
+
+div#wrapper_share {
+	padding: 10px;
+	clear: left;
+}
+
+p#infotext {
+	font-size:14px;
+}
+
+button#button-url {
+    width: 100px;
+    height: 30px;
+}
+
+#url-feld {
+	border: 3px solid #000000;
+	padding: 10px;
+	margin: 10px;
+	width: 80%;
+	/*background-color: #000e1d;*/
+}
+
+#url-github {
+	border: 3px solid #000000;
+	padding: 10px;
+	margin: 10px;
+	width: 80%;
+	/*background-color: #000e1d;*/
+}
